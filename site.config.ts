@@ -2,24 +2,24 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '4817bc3b1ccc440db72183e6a3e0c139',
+  rootNotionPageId: '7e5cdfec159b40f8bca30bf8f8b91aec',
   
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Werkworden',
-  domain: 'Werkworden.nl',
-  author: 'Xin Tian',
+  name: 'HydroMonitor',
+  domain: 'HydroMonitor.vercel.app',
+  author: 'Xin Tian, KWR, NL',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Site for HydroMonitor',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'KWR Water Research Institute',
+  // github: 'transitive-bullshit',
+  // linkedin: 'XIN TIAN',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
