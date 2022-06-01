@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7e5cdfec159b40f8bca30bf8f8b91aec',
+  rootNotionPageId: '91ed7306a8824ce78b64bd2aa6086aca',
   
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'HydroMonitor',
-  domain: 'HydroMonitor.vercel.app',
-  author: 'Xin Tian, KWR, NL',
+  name: 'DataViz_report',
+  domain: 'kwrdataviz.vercel.app',
+  author: 'Xin Tian, et al., KWR, NL',
 
   // open graph metadata (optional)
-  description: 'Site for HydroMonitor',
+  description: 'Site for Data Viz',
 
   // social usernames (optional)
   twitter: 'KWR Water Research Institute',
